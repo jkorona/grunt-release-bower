@@ -1,3 +1,6 @@
+# WORK IN PROGRESS..
+
+
 # grunt-release-bower
 
 > Grunt.js task which facilitates release of the new versions for Bower components.
