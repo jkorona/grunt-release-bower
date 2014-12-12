@@ -37,5 +37,9 @@
   },
   "keywords": [
     "gruntplugin"
-  ]
+  ],
+  "dependencies": {
+    "inquirer": "^0.8.0",
+    "q": "^1.1.2"
+  }
 }
