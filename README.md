@@ -157,9 +157,9 @@ Default value for this flag is _patch_.
 
 Sample:
 
-     grunt bowerRelease --increment=minor
+     grunt bower-release --increment=minor
 
-#### ``--version``
+#### ``--ver``
 
 This flag allows you fix version of component to release. Of course you have to remember to follow rules
 of Semver specification.
@@ -167,6 +167,15 @@ of Semver specification.
 Sample:
 
      grunt release-bower --version=1.2.3
+
+#### ``--all``
+
+With that flag all modules will be release in one shot. If the modules do not have the same version yet, you have to add
+the --ver argument in order to specify the first common version.
+
+Sample:
+
+      grunt release-bower --all --ver=1.2.3
 
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
