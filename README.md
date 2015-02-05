@@ -1,13 +1,10 @@
-# WORK IN PROGRESS..
-
-
 # grunt-release-bower
 
 > The `release-bower` is [GruntJS](http://gruntjs.com/) task implementation, that automates
   process of releasing bower components.
 
 This plugin was build in order to support scenario where one code base produces several self-contained bower components,
-each with own dependencies, like HelixJS library. However can be easily used with more classical approach
+each with own dependencies, like more complex library. However can be easily used with more classical approach
 (one code base -> one component) as well.
 
 ## How that works?
@@ -42,7 +39,7 @@ Voilà! Now you can use `release-bower` task with command line : `grunt release-
 You can provide list of component to release via command line. After task name provide names of components
 to release separated by colon marks:
 
-     grunt release-bower:helix:helix-18n:helix-ui
+     grunt release-bower:component:component-18n:component-ui
 
 #### Manual
 
@@ -54,9 +51,9 @@ Sample:
      > grunt release-bower
      Running "release-bower" task
       [?] Choose which components you want to release: (Press <space> to select)
-     >[ ] helix-feature
-      [X] helix-kendo
-      [ ] helix
+     >[ ] component-feature
+      [X] component-kendo
+      [ ] component
 
 <div class="alert alert-info" style="margin: 10px;">If there is only one bower component in classpath, plugin will start
 release process with asking user.</div>
@@ -73,12 +70,12 @@ which instructs plugin to automatically pump version of component (increment ste
 Example (`bower.json`):
 
      {
-         "name": "helix",
+         "name": "component",
          "version": "auto",
          "authors": [
              "Jan Korona <Jan.Korona@gmail.com>"
          ],
-         "description": "HelixJS core components.",
+         "description": "Core part of library.",
          ....
      }
 
