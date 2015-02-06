@@ -40,7 +40,7 @@ module.exports = function (grunt) {
         // Cleanup tmp folder before we start in case of any trash from last execution
         cleanup();
         // Recreate the tmp folder
-        fs.mkdir(ctx.options.tmpDir);
+        ctx.fs.mkdir(ctx.options.tmpDir);
 
         // Fire the release process
         ctx.execute().done(finalize, handleError);
