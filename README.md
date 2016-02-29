@@ -178,5 +178,6 @@ Sample:
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
 
 ## Release History
-2015-02-05 Initial version 0.1.0 released.
-2016-02-29 Patch 0.1.6 with support for GruntJS 1.0.
+
+- 2015-02-05 Initial version 0.1.0 released.
+- 2016-02-29 Patch 0.1.6 with support for GruntJS 1.0.
