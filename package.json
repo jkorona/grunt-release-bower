@@ -1,7 +1,7 @@
 {
   "name": "grunt-release-bower",
   "description": "Grunt.js task which facilitates release of the new versions for Bower components.",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "homepage": "https://github.com/jkorona/grunt-release-bower",
   "author": {
     "name": "Jan Korona",
