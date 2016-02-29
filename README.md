@@ -14,7 +14,7 @@ Each discovered component can be released by the task. The new version of compon
 changed taking into account last released version and increment factor provided by user (according to [Semver specification](http://semver.org).
 
 ## Getting Started
-This plugin requires Grunt `~0.4.5`
+This plugin requires Grunt `>0.4.5`
 
 If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you're familiar with that process, you may install this plugin with this command:
 
@@ -179,3 +179,4 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 
 ## Release History
 2015-02-05 Initial version 0.1.0 released.
+2016-02-29 Patch 0.1.1 with support for GruntJS 1.0.
